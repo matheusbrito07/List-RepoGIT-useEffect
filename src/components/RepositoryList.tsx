@@ -2,8 +2,6 @@ import RepositoryItem from "./RepositoryItem";
 import "../styles/repositories.css";
 import { useEffect, useState } from "react";
 
-//https://api.github.com/orgs/rocketseat/repos
-
 type repositoriesProps = {
     id:number,
     name:string,
@@ -17,6 +15,7 @@ export function RepositoryList() {
 
     useEffect(() => {
         fetch("https://api.github.com/orgs/rocketseat/repos")
+        //https://api.github.com/users/matheusbrito07/repos
         .then(response => response.json())
         .then(data => setRepositories(data))
     },[]);
