@@ -1,0 +1,36 @@
+section{
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    border: #444 solid 1px;
+    width: 50%;
+}
+section .reposiroy-list{
+    margin: 40px;
+}
+
+section h1{
+    margin-bottom: 16px;
+}
+
+section  ul{
+    list-style: none;
+}
+section  li:last-child {
+    margin-top: 20px;
+}
+
+section p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 8px;
+}
+section a{
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+    color: violet;
+}
